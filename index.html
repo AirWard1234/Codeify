@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CODIFEY</title>
+    <link href="css/nav.css" rel="stylesheet" type="text/css" />
+    <link href="css/home.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+</head>
+
+<body>
+    <!-- nav bar -->
+    <header>
+        <a href="index.html">
+            <div class="logo">CODEIFY</div>
+        </a>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="#"><button>START</button></a>
+    </header>
+
+    <!-- hero section -->
+    <section class="hero">
+        <h3>Welcome to...</h3>
+        <h1>CODEFIY</h1>
+        <!-- moving blob -->
+        <div class="blob">
+
+            <svg id="visual" viewBox="0 0 900 600" width="900" height="600" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+                <!-- first svg of a blob -->
+                <g transform="translate(449.78075138062246 326.6117291806918)">
+                    <path id="blob1"
+                        d="M176 -171.9C223.4 -128.7 253.7 -64.3 256.9 3.2C260 70.7 236.1 141.4 188.8 166.4C141.4 191.4 70.7 170.7 1.3 169.4C-68.1 168.1 -136.2 186.2 -185.1 161.2C-233.9 136.2 -263.5 68.1 -255.4 8C-247.4 -52.1 -201.8 -104.2 -153 -147.3C-104.2 -190.5 -52.1 -224.8 6.1 -230.9C64.3 -237 128.7 -215 176 -171.9"
+                        fill="#372E47"></path>
+                </g>
+                <!-- second svg of a blob styled to be hidden-->
+                <g transform="translate(458.83877503552253 272.68123274560276)">
+                    <path id="blob2"
+                        d="M174.8 -158.1C221.8 -127.8 251.9 -63.9 237.6 -14.3C223.4 35.4 164.7 70.7 117.7 120.7C70.7 170.7 35.4 235.4 -7 242.3C-49.3 249.3 -98.5 198.5 -148.4 148.5C-198.2 98.5 -248.6 49.3 -257.4 -8.8C-266.3 -66.9 -233.5 -133.9 -183.7 -164.2C-133.9 -194.5 -66.9 -188.3 -1.5 -186.7C63.9 -185.2 127.8 -188.4 174.8 -158.1"
+                        fill="#372E47" style="visibility: hidden; position: absolute;"></path>
+                </g>
+            </svg>
+        </div>
+    </section>
+
+    <div class="spacer layer1" style="visibility: visible; display: flex; transform: translateY(15%); z-index: 0;">
+        <img src="wave.svg">
+    </div>
+    <!-- information section -->
+    <section class="inform">
+        <h1>HOW DOES IT WORK?</h1>
+        <!-- info cards -->
+        <div class="reveal">
+            <div class="cards">
+                <div class="text-card">
+                    <h3>Start</h3>
+                    <p>At the start, Codeify is designed to bring the user the ultimate experience. With our modern and
+                        slick design, as well as our functional features, we are sure to make your experience as smooth
+                        as
+                        possible.</p>
+
+                    <p>The user is then prompted to enter their desiered code. That's where we come in! We them process
+                        their request, then we package and send the information towards the middle section!
+                    </p>
+                </div>
+                <div class="text-card">
+                    <h3>Middle</h3>
+                    <p>We then process the code and send it through GTP API to utilize AI in builing your code. The code
+                        then gets sent back to our servers and we look over it for bugs. If its a green light, we give
+                        it back to you for your final touches. If any red flags arise, we run it back until its
+                        complete!
+                    </p>
+                </div>
+                <div class="text-card">
+                    <h3>End</h3>
+                    <p>The code is now in your hands! Now is the final chance you get to make any changes. Let us know
+                        how we can help. Once you confirm, the code gets finalized and you are able to copy and paste it
+                        into your IDE!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="filler"></div>
+    <svg id="visual" viewBox="0 0 900 600" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+        <path
+            d="M0 158L21.5 168C43 178 86 198 128.8 206.5C171.7 215 214.3 212 257.2 190.5C300 169 343 129 385.8 110.7C428.7 92.3 471.3 95.7 514.2 96.8C557 98 600 97 642.8 100.7C685.7 104.3 728.3 112.7 771.2 116.5C814 120.3 857 119.7 878.5 119.3L900 119L900 0L878.5 0C857 0 814 0 771.2 0C728.3 0 685.7 0 642.8 0C600 0 557 0 514.2 0C471.3 0 428.7 0 385.8 0C343 0 300 0 257.2 0C214.3 0 171.7 0 128.8 0C86 0 43 0 21.5 0L0 0Z"
+            fill="#001220" stroke-linecap="round" stroke-linejoin="miter" id="wavydiv1" style="width:10px"></path>
+        <path
+            d="M0 158L21.5 153.7C43 149.3 86 140.7 128.8 127.8C171.7 115 214.3 98 257.2 89C300 80 343 79 385.8 83.7C428.7 88.3 471.3 98.7 514.2 117.8C557 137 600 165 642.8 160.8C685.7 156.7 728.3 120.3 771.2 115.2C814 110 857 136 878.5 149L900 162L900 0L878.5 0C857 0 814 0 771.2 0C728.3 0 685.7 0 642.8 0C600 0 557 0 514.2 0C471.3 0 428.7 0 385.8 0C343 0 300 0 257.2 0C214.3 0 171.7 0 128.8 0C86 0 43 0 21.5 0L0 0Z"
+            fill="#001220" stroke-linecap="round" stroke-linejoin="miter" id="wavydiv2" style="visibility: hidden;">
+        </path>
+    </svg>
+
+    </svg>
+
+    <section class=" CTA2">
+
+    </section>
+
+
+    <!-- make blob move -->
+    <script type="text/javascript">
+        /*code that slowly turns the first blob svg into the second and yo-yos back*/
+        const tween = KUTE.fromTo(
+            '#blob1',
+            {path: '#blob1'},
+            {path: '#blob2'},
+            {repeat: 999, duration: 5000, yoyo: true}
+        )
+
+        const tweentwo = KUTE.fromTo(
+            '#wavydiv1',
+            {path: '#wavydiv1'},
+            {path: '#wavydiv2'},
+            {repeat: 999, duration: 5000, yoyo: true}
+        )
+
+        tween.start()
+        tweentwo.start()
+
+        window.addEventListener('scroll', showText);
+
+        function showText() {
+            var reveals = document.querySelectorAll('.reveal');
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var revealTop = reveals[i].getBoundingClientRect().top;
+                var revealPoint = 150;
+                if (revealTop < windowHeight - revealPoint) {
+                    reveals[i].classList.add('active');
+                } else {
+                    reveals[i].classList.remove('active');
+                }
+            }
+        }
+
+    </script>
+</body>
+
+</html>
